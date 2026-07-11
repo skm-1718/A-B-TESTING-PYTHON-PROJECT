@@ -38,6 +38,7 @@ The objective is to determine:
 The analysis uses two datasets:
 
 - Control Group Dataset
+  
 - Test Group Dataset
 
 Each dataset contains daily marketing campaign performance including:
@@ -102,7 +103,7 @@ Each dataset contains daily marketing campaign performance including:
     
 9. Statistical Hypothesis Testing
     
-10. Business InsightS
+10. Business Insights
     
 11. Final Recommendations
 
