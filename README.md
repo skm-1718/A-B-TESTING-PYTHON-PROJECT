@@ -1,313 +1,274 @@
-# A-B-TESTING-PYTHON-PROJECT
+# 📊 A/B Testing Analysis Using Python
+
 End-to-end A/B Testing Analysis using Python to compare Control and Test marketing campaigns through data cleaning, EDA, KPI analysis, visualization, statistical hypothesis testing, and actionable business recommendations.
 
-# A/B Testing Analysis Workflow Using Python
+## 📌 Project Overview
 
-# Project Introduction
+This project performs an end-to-end **A/B Testing Analysis** to evaluate the performance of two digital marketing campaigns: **Control Campaign** and **Test Campaign**.
 
-Project Overview
+The objective is to determine whether the Test campaign outperforms the Control campaign by comparing key business metrics, visualizing campaign performance, and performing statistical hypothesis testing.
 
-Business Problem
+The project follows a complete data analytics workflow including data cleaning, exploratory data analysis (EDA), KPI calculation, visualization, hypothesis testing, and business recommendations.
 
-# Objectives
+-----
 
-Expected Outcome
+# 🎯 Business Problem
 
-# Import Required Libraries
+A company launched two different marketing campaigns:
+
+- Control Campaign
+  
+- Test Campaign
+
+
+The objective is to determine:
+
+- Which campaign generated better customer engagement?
+  
+- Which campaign delivered better conversions?
+  
+- Which campaign was more cost-efficient?
+  
+- Are the observed differences statistically significant?
+
+---
+
+# 📂 Dataset
+
+The analysis uses two datasets:
+
+- Control Group Dataset
+- Test Group Dataset
+
+Each dataset contains daily marketing campaign performance including:
+
+- Campaign Name
+  
+- Date
+  
+- Spend (USD)
+  
+- Impressions
+
+- Reach
+  
+- Website Clicks
+  
+- Searches
+  
+- View Content
+  
+- Add to Cart
+  
+- Purchases
+
+---
+
+# 🛠 Tools & Technologies
+
+- Python
+  
+- Pandas
+  
+- NumPy
+  
+- Matplotlib
+  
+- Seaborn
+  
+- SciPy
+  
+- Jupyter Notebook
+
+---
+
+# 📈 Project Workflow
+
+1. Import Libraries
    
-Import Pandas
-
-Import NumPy
-
-Import Matplotlib
-
-Import Seaborn
-
-Import SciPy (T-Test)
-
-# Load the Datasets
-
-Load Control Campaign dataset
-
-Load Test Campaign dataset
-
-# Data Inspection
+2. Load Datasets
    
-Check Shape
-
-Number of Rows
-
-Number of Columns
-
-Display First Five Rows
-
-Display Last Five Rows
-
-Check Column Names
-
-Check Data Types
-
-# Data Quality Assessment
-    
-Check Missing Values
-
-Check Duplicate Records
-
-Check Unique Values
-
-Check Basic Dataset Information
-
-# Data Cleaning
-    
-Remove Missing Values
-
-Handle Duplicate Records (if any)
-
-Convert Date column into Datetime format
-
-Verify Data Types
-
-# Feature Engineering
-    
-Add Campaign Label
-
-Control
-
-Test
-
-# Merge Both Datasets
-
-Create one combined dataset for comparison.
-
-# Exploratory Data Analysis (EDA)
+3. Data Inspection
    
-Descriptive Statistics
+4. Data Cleaning
 
-Mean
-
-Median
-
-Standard Deviation
-
-Minimum
-
-Maximum
-
-Quartiles
-
-# Campaign-wise Average Analysis
-
-Compare
-
-Spend
-
-Impressions
-
-Reach
-
-Website Clicks
-
-Searches
-
-View Content
-
-Add to Cart
-
-Purchases
-
-# KPI Creation
-
-Create new calculated columns
-
-Click Through Rate (CTR)
-
-Conversion Rate
-
-Cost Per Click (CPC)
-
-Cost Per Acquisition (CPA)
-
-Add to Cart Rate
-
-Purchase from Cart Rate
-
-# KPI Comparison
-
-Compare KPI averages between
-
-Control Campaign
-
-Test Campaign
-
-# Data Visualization
+5. Merge Control & Test Data
     
-Bar Charts
-
-Average Spend
-
-Average Clicks
-
-Average Purchases
-
-Average CTR
-
-Average CPA
-
-Line Charts
-
-Daily Spend Trend
-
-Daily Website Click Trend
-
-Daily Purchase Trend 
-
-Correlation Analysis
-
-Correlation Matrix
-
-Heatmap
-
-Distribution Analysis
-
-Box Plot
-
-Histogram
-
-Scatter Plot
-
-Relationship between
-
-Reach vs Impressions
-
-Clicks vs Purchases
-
-# Business Insights
-
-## Interpret
-
-Spend
-
-Reach
-
-Clicks
-
-Searches
-
-Purchases
-
-CTR
-
-CPA
-
-Conversion Rate
-
-Explain what each finding means.
-
-# Statistical A/B Testing
+6. Exploratory Data Analysis (EDA)
     
-State the Problem
+7. KPI Calculation
+    
+8. Data Visualization
+    
+9. Statistical Hypothesis Testing
+    
+10. Business InsightS
+    
+11. Final Recommendations
 
-Define Hypotheses
+---
 
-Null Hypothesis (H₀)
+# 📊 Key Performance Indicators (KPIs)
 
-No significant difference exists.
+The following KPIs were calculated:
 
-Alternative Hypothesis (H₁)
+- Click Through Rate (CTR)
+  
+- Conversion Rate
+  
+- Cost Per Click (CPC)
+  
+- Cost Per Acquisition (CPA)
+  
+- Add-to-Cart Rate
+  
+- Purchase from Cart Rate
 
-Significant difference exists.
+---
 
-Select Statistical Test
+# 📉 Data Visualizations
 
-Independent Sample T-Test
+The project includes:
 
-Run T-Test
+- Average Purchases Comparison
+  
+- Average CTR Comparison
+  
+- Average CPA Comparison
+  
+- Daily Purchase Trend
+  
+- Correlation Heatmap
+  
+- Group-wise Performance Comparison
 
-Test for
+---
 
-Website Clicks
+# 📚 Statistical Analysis
 
-Add to Cart
+An Independent Sample T-Test was performed to compare the Control and Test campaigns.
 
-Purchases
+### Null Hypothesis (H₀)
 
-CTR
+There is no significant difference between the Control and Test campaigns.
 
-Conversion Rate
+### Alternative Hypothesis (H₁)
 
-Calculate
+There is a statistically significant difference between the two campaigns.
 
-T-Statistic
+---
 
-P-Value
+# 🔍 Key Findings
 
-Decision Rule
+## Test Campaign
 
-If
+✅ Higher Click Through Rate (CTR)
 
-P-value < 0.05
+✅ More Website Clicks
 
-Reject Null Hypothesis
+✅ More Searches
 
-Else
+✅ Lower Cost Per Click (CPC)
 
-Fail to Reject Null Hypothesis
+✅ Better engagement performance
 
-# Interpret Statistical Results
+---
 
-For every KPI explain
+## Control Campaign
 
-Significant
+✅ Higher Reach
 
-or
+✅ Higher Impressions
 
-Not Significant
+✅ Better Conversion Rate
 
-# Final Comparison
+✅ Higher Add-to-Cart Rate
 
-Control Campaign Strengths
+✅ Lower Cost Per Acquisition (CPA)
 
-Test Campaign Strengths
+---
 
-# Business Recommendation
+# 📈 Statistical Results
 
-Recommend
+### Significant Difference Found
 
-Control Campaign
+- CTR
+- Add-to-Cart
 
-or
+### No Significant Difference Found
 
-Test Campaign
+- Purchases
+- Website Clicks
+- Conversion Rate
 
-or
+---
 
-Hybrid Strategy
+# 💡 Business Recommendations
 
-with justification.
+- Use the Test campaign for improving customer engagement and traffic generation.
+- Continue using the Control campaign for better conversion efficiency.
+- Combine Test campaign creatives with Control campaign targeting strategy for improved overall marketing performance.
 
-# Final Summary Table
+---
 
-Include
+# 📷 Project Preview
 
-Average Metrics
+The repository contains:
 
-KPI Metrics
+- Python Notebook
+  
+- Charts & Visualizations
+  
+- Statistical Analysis
+  
+- Business Insights
+  
+- Final Report
 
-Statistical Results
+---
 
-18. Executive Summary
+# 📁 Repository Structure
 
-Summarize the complete project in one page.
+```
+A-B-Testing-Analysis-Using-Python
+│
+├── control_group.csv
+├── test_group.csv
+├── A_B_Testing_Analysis.ipynb
+├── README.md
+├── charts/
+├── outputs/
+└── report/
+```
 
-# Conclusion
+---
 
-Write
+# 🚀 Skills Demonstrated
 
-Major Findings
+- Data Cleaning
+- 
+- Exploratory Data Analysis (EDA)
+  
+- Data Visualization
+  
+- Statistical Analysis
+  
+- Hypothesis Testing
+  
+- Business Analytics
+  
+- Marketing Analytics
+  
+- KPI Analysis
+  
+- Python Programming
 
-Business Impact
+---
 
-Recommendation
+# ⭐ Conclusion
 
-# Future Scope
+The Test campaign generated stronger customer engagement through higher CTR and website clicks, while the Control campaign performed better in lower-funnel conversion metrics with a lower acquisition cost.
 
+Although both campaigns achieved nearly identical purchases, the statistical analysis suggests using a hybrid strategy that combines the strengths of both campaigns.
+
+---
