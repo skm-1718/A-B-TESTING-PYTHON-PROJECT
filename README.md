@@ -227,26 +227,10 @@ The repository contains:
 
 ---
 
-# 📁 Repository Structure
-
-```
-A-B-Testing-Analysis-Using-Python
-│
-├── control_group.csv
-├── test_group.csv
-├── A_B_Testing_Analysis.ipynb
-├── README.md
-├── charts/
-├── outputs/
-└── report/
-```
-
----
-
 # 🚀 Skills Demonstrated
 
 - Data Cleaning
-- 
+  
 - Exploratory Data Analysis (EDA)
   
 - Data Visualization
